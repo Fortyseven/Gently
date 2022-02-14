@@ -13,12 +13,12 @@ Gently is a client-server application.
 
 ## Stack
 
+### Server
+
+- Node
+- Express
+- Postgres
+
+### Client
+
 - Python 3.x
-- Django
-- Postgres (later)
-
-Server in Python/Django. Client in Svelte.
-
-# Standing It Up
-
--
