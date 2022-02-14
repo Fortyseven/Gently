@@ -1,13 +1,14 @@
 const express = require("express");
+const pg = require("pg");
 
 const PORT = 4776;
 
-const gently_server = express();
+const app = express();
 
-gently_server.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`Server is Listening on 4776`);
 });
 
-gently_server.get("/", (request, response) => {
+app.get("/", (request, response) => {
   response.send("ok");
 });
