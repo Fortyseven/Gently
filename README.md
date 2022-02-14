@@ -15,14 +15,14 @@ Gently is a client-server application.
 
 ### Server
 
-- Node
-- Express
-- Postgres
+-   Node
+-   Express
+-   Postgres
 
 ### Client
 
-- Python 3.x 🐍
+-   Python 3.x 🐍
 
 # Notes
 
-- 🚫 Docker credentials are being used by default, and are intended only for local development; there will be better credential management when this is ready for production.
+-   🚫 Docker credentials are being used by default, and are intended only for local development; there will be better credential management when this is ready for production.
