@@ -14,7 +14,7 @@ router.get("/", async function (req, response) {
             if (err || !rowCount) {
                 return response.sendStatus(404);
             }
-            return response.json(rows[0]);
+            return response.json(rows);
         }
     );
 });
