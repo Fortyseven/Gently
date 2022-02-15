@@ -1,6 +1,8 @@
 DELETE FROM
     cases;
 
+TRUNCATE TABLE cases RESTART IDENTITY;
+
 INSERT INTO
     cases(name, description, notes)
 VALUES
